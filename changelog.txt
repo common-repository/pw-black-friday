@@ -1,0 +1,233 @@
+= 2.1 =
+* Updated contact information. Confirmed compatibility with WooCommerce 9.4
+
+= 2.0 =
+* Compatibility with WordPress 6.6 and WooCommerce 9.1. Added requirement for WooCommerce plugin to be installed.
+
+= 1.76 =
+* WooCommerce 9.0 compatibility.
+
+= 1.75 =
+* Revised tags in readme.txt
+
+= 1.74 =
+* Compatibility with WordPress 6.5 and WooCommerce 8.7
+
+= 1.73 =
+* Removed PHP warnings about deprecated WC_Order_Item_Coupon::offsetSet function. Confirmed compatibility with WooCommerce 8.4.
+
+= 1.72 =
+* Confirmed compatibility with High Performance Order Storage (HPOS). Fixed a potential conflict with the WooCommerce Memberships plugin. Removed a deprecated WordPress function call. PHP 8.1 compatibility changes.
+
+= 1.71 =
+* Confirmed compatibility with WordPress 6.4
+
+= 1.70 =
+* Confirmed compatibility with WooCommerce 8.2
+
+= 1.69 =
+* Confirmed compatibility with WooCommerce 8.0 and WordPress 6.3
+
+= 1.68 =
+* Confirmed compatibility with WooCommerce 7.8
+
+= 1.67 =
+* Confirmed compatibility with WooCommerce 7.5 and WordPress 6.2
+
+= 1.66 =
+* Added a new hook to allow prices to be overridden by custom functions: pwbf_discounted_price. Confirmed compatibility with WooCommerce 7.3.
+
+= 1.65 =
+* Prevent a possible PHP warning regarding reading a null variable.
+
+= 1.64 =
+* Fixed possible PHP warnings that can appear in the log files.
+
+= 1.63 =
+* Confirmed compatibility with WooCommerce 7.1 and WordPress 6.1
+
+= 1.62 =
+* Prevent additional discount if a product is matched with multiple Deals.
+
+= 1.61 =
+* Confirmed compatibility with WooCommerce 7.0
+
+= 1.60 =
+* Updated the WooCommerce minimum version requirement to 4.0. WooCommerce 6.7 compatible.
+
+= 1.59 =
+* WooCommerce 6.6 compatibility.
+
+= 1.58 =
+* WordPress 6.0 and WooCommerce 6.5 compatibility.
+
+= 1.57 =
+* WordPress 5.9 and WooCommerce 6.2 compatibility.
+
+= 1.56 =
+* Allow a second event to take place while an existing event is active for the same product.
+
+= 1.55 =
+* Allow products to be shown using the pw_black_friday shortcode even when the event has not started. Confirmed compatibility with WooCommerce 6.0
+
+= 1.54 =
+* Fixed an issue with displaying the date and time that could cause a crash in some locales. Confirmed compatibility with WordPress v5.8 and WooCommerce v5.5
+
+= 1.53 =
+* Fixed an issue where editing event dates could cause a duplicate event to be created. Fixed a typo in the Dansk translation. Fixed an issue with displaying the date and time that could cause a crash in some locales.
+
+= 1.52 =
+* Fixed an issue with timezone conversion when WordPress is configured to use a numeric offset rather than a named location.
+
+= 1.51 =
+* Confirmed compatibility with WordPress 5.7 and WooCommerce 5.1
+
+= 1.50 =
+* Confirmed compatibility with WooCommerce 5.0.
+
+= 1.49 =
+* Confirmed compatibility with WordPress 5.6 and WooCommerce 4.8
+
+= 1.48 =
+* Confirmed compatibility with upcoming WooCommerce 4.8
+
+= 1.47 =
+* Added a new hook to allow overriding the price HTML: pwbf_price_html
+
+= 1.46 =
+* Confirmed compatibility with WooCommerce v4.6
+
+= 1.45 =
+* Confirmed compatibility with WooCommerce v4.3
+
+= 1.44 =
+* Added support for the WooCommerce TM Extra Product Options plugin by themeComplete. Confirmed compatibility with WordPress 5.5
+
+= 1.43 =
+* Confirmed compatibility with WooCommerce v4.1
+
+= 1.42 =
+* Fixed an issue using the pw_black_friday attribute with the products query when there are multiple deals active for the same event.
+
+= 1.41 =
+* Confirmed compatibility with WordPress 5.4
+
+= 1.40 =
+* Fixed a compatibility issue with the plugin WPC Product Bundles for WooCommerce by WPClever.net. Confirmed compatibility with WordPress 5.3.2 and WooCommerce 4.0.0
+
+= 1.39 =
+* Fixed an issue where promotional text could appear a second time under the Variation dropdown menu on the product page.
+
+= 1.38 =
+* Added integration with the plugin "Advanced Product Fields" by StudioWombat.
+
+= 1.37 =
+* Added internationalization support for the untranslated strings in the plugin.
+
+= 1.36 =
+* Added a class to the sale-price-html.php template to make it easier to change CSS styles without overriding the template.
+
+= 1.35 =
+* Improved the BOGO discount calculation logic for sites with tax included in prices.
+
+= 1.34 =
+* Fixed calculation of the Black Friday and Cyber Monday dates.
+
+= 1.33 =
+* Countdown strings (hours, days, etc) are now translatable.
+
+= 1.32 =
+* Tested for compatibility with the latest versions of WordPress and WooCommerce.
+
+= 1.31 =
+* Confirmed compatibility with WooCommerce v3.6.4 and WordPress v5.2.1
+
+= 1.30 =
+* Do not show any results from the shortcode query when the event has ended.
+
+= 1.29 =
+* Stopped hiding the Admin Bar when a countdown banner is visible.
+
+= 1.28 =
+* Split out the front end template files. Updated translations in the admin area.
+
+= 1.27 =
+* To avoid confusion, when a coupon code is requried for a % discount promotion, do not show -$0.00 in totals section. Added Danish translation.
+
+= 1.26 =
+* Made the sale price fields translatable and added to our existing translations.
+
+= 1.25 =
+* Fixed countdown timer for all date and time formats.
+
+= 1.24 =
+* Fixed countdown timer for all date and time formats.
+
+= 1.23 =
+* Added German, French, Spanish, Italian, Russian, and Dutch translations.
+
+= 1.22 =
+* Confirmed compatibility with WooCommerce v3.5.0
+
+= 1.21 =
+* Fixed percentage bubble display issue with the Flatsome theme.
+
+= 1.20 =
+* Fixed compatibility issue with WooComerce Product Bundles plugin. Fixed issue with displaying time on certain system configurations.
+
+= 1.19 =
+* Fixed issue with BOGO calculation.
+
+= 1.17 =
+* Fixed discounted item limitation logic for BOGO deals. Fixed issue with BOGO coupon and Individual Use.
+
+= 1.16 =
+* Fixed message on the sale page for BOGO deals.
+
+= 1.15 =
+* Fixed potential compatibility issue with product addons plugin.
+
+= 1.14 =
+* Added .pot file for translation support.
+
+= 1.13 =
+* Fix price display for Variable products when not basing discount on Regular Price.
+
+= 1.12 =
+* Optionally remove the Expiration Date from the product page.
+
+= 1.11 =
+* Added the ability to override the error message for Individual Use coupon restriction.
+
+= 1.10 =
+* Fixed timezone translation while saving event.
+
+= 1.9 =
+* Fixed timezone translation while saving event.
+
+= 1.8 =
+* Translate the sale expiration date on the product page.
+
+= 1.7 =
+* On the individual product page, show the sale header for BOGO deals as well as % or $ off. Fix for 'Coupon does not exist' error in WooCommerce 3.2 and older. Added option to base the discount off Regular Price or the current (sale) price.
+
+= 1.6 =
+* Corrected the link to reviews on the WordPress.org site.
+
+= 1.5 =
+* Improved compatibility with PHP v5.3 and above.
+
+= 1.4 =
+* Added the ability to discount specific products in addition to categories.
+
+= 1.3 =
+* Fix conflict with outside coupon codes.
+
+= 1.2 =
+* Updated product price expiration to only show on product detail page.
+
+= 1.1 =
+* Fixed an issue with excluding multiple products in WooCommerce 2.6
+
+= 1.0 =
+* Initial version

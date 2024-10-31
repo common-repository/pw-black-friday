@@ -1,0 +1,788 @@
+# Copyright (C) 2018 Black Friday and Cyber Monday for WooCommerce
+# This file is distributed under the same license as the Black Friday and Cyber Monday for WooCommerce package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Black Friday and Cyber Monday for WooCommerce 1.22\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/free\n"
+"POT-Creation-Date: 2019-12-07 16:44:15+00:00\n"
+"PO-Revision-Date: 2019-12-07 10:50-0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: pw-black-friday.php:76
+msgid "Black Friday"
+msgstr "Black Friday"
+
+#: pw-black-friday.php:82
+msgid "Cyber Monday"
+msgstr "Cyber Lunedi"
+
+#: pw-black-friday.php:584
+msgid "Limit %s discounted items per order. <a href=\"%s\">View your cart</a>."
+msgstr ""
+"Limite %s di articoli scontati per ordine. <a href=\"%s\">Visualizza il tuo "
+"carrello</a>."
+
+#: pw-black-friday.php:740 pw-black-friday.php:827
+msgid "Invalid query string."
+msgstr "Stringa d'interrogazione non valida."
+
+#: pw-black-friday.php:760 pw-black-friday.php:917 ui/deals/step4.php:43
+msgid "Title is required."
+msgstr "Titolo è richiesto."
+
+#: pw-black-friday.php:761
+msgid "Begin Date is required."
+msgstr "La data di inizio è obbligatoria."
+
+#: pw-black-friday.php:762
+msgid "Begin Time is required."
+msgstr "L'ora di inizio è richiesta."
+
+#: pw-black-friday.php:763
+msgid "End Date is required."
+msgstr "Data di fine è richiesta."
+
+#: pw-black-friday.php:764
+msgid "End Time is required."
+msgstr "L'ora di fine è richiesta."
+
+#: pw-black-friday.php:766 pw-black-friday.php:769
+msgid "%s is not a valid date and time."
+msgstr "%s non è una data e un'ora valide."
+
+#: pw-black-friday.php:772
+msgid "Begin date must come before End date."
+msgstr "La data di inizio deve venire prima della data di fine."
+
+#: pw-black-friday.php:911
+msgid "Select at least 1 Product Category or 1 Included Product."
+msgstr "Selezionare almeno 1 categoria di prodotto o 1 prodotto incluso."
+
+#: pw-black-friday.php:914
+msgid "Free Shipping Minimum Amount must be greater than zero."
+msgstr "L'importo minimo di spedizione gratuita deve essere superiore a zero."
+
+#: pw-black-friday.php:983
+msgid "Invalid Event ID"
+msgstr "ID Evento non valido"
+
+#: pw-black-friday.php:1037
+msgid "January"
+msgstr "Gennaio"
+
+#: pw-black-friday.php:1038
+msgid "February"
+msgstr "Febbraio"
+
+#: pw-black-friday.php:1039
+msgid "March"
+msgstr "Marzo"
+
+#: pw-black-friday.php:1040
+msgid "April"
+msgstr "Aprile"
+
+#: pw-black-friday.php:1041
+msgid "May"
+msgstr "Maggio"
+
+#: pw-black-friday.php:1042
+msgid "June"
+msgstr "Giugno"
+
+#: pw-black-friday.php:1043
+msgid "July"
+msgstr "Luglio"
+
+#: pw-black-friday.php:1044
+msgid "August"
+msgstr "Agosto"
+
+#: pw-black-friday.php:1045
+msgid "September"
+msgstr "Settembre"
+
+#: pw-black-friday.php:1046
+msgid "October"
+msgstr "Ottobre"
+
+#: pw-black-friday.php:1047
+msgid "November"
+msgstr "Novembre"
+
+#: pw-black-friday.php:1048
+msgid "December"
+msgstr "Dicembre"
+
+#: pw-black-friday.php:1049
+msgid "Error"
+msgstr "Errore"
+
+#: pw-black-friday.php:1050
+msgid "Discard changes?"
+msgstr "Eliminare le modifiche?"
+
+#: pw-black-friday.php:1051
+msgid "Activating, please wait..."
+msgstr "Attivare, attendere per favore....."
+
+#: pw-black-friday.php:1052
+msgid "Are you sure you want to delete this event? This cannot be undone."
+msgstr ""
+"Sei sicuro di voler cancellare questo evento? Non può essere annullato."
+
+#: pw-black-friday.php:1053
+msgid "Are you sure you want to delete this deal? This cannot be undone."
+msgstr ""
+"Sei sicuro di voler cancellare questo accordo? Non può essere annullato."
+
+#: pw-black-friday.php:1171
+msgid "Invalid event parameter for get_event()"
+msgstr "Parametro evento non valido per get_event()"
+
+#: pw-black-friday.php:1175
+msgid "%s is not a valid type for get_event()."
+msgstr "%s non è un tipo valido per get_event()."
+
+#: pw-black-friday.php:1236
+msgid "Invalid deal parameter for get_deal()."
+msgstr "Parametro non valido per get_deal()."
+
+#: pw-black-friday.php:1240
+msgid "%s is not a valid type for get_deal()."
+msgstr "%s non è un tipo valido per get_deal()."
+
+#: pw-black-friday.php:1283 ui/index.php:127
+msgid "Discount"
+msgstr "Sconto"
+
+#: pw-black-friday.php:1372
+msgid "%s discount applied."
+msgstr "%s di sconto applicato."
+
+#: pw-black-friday.php:1440
+msgid "Coupon: %s"
+msgstr "Codice promozionale: %s"
+
+#: pw-black-friday.php:1454
+msgid "Applied to cart items"
+msgstr "Applicato agli elementi del carrello"
+
+#: pw-black-friday.php:1455
+msgid "[Remove]"
+msgstr "[Rimuovi]"
+
+#: templates/woocommerce/pw-black-friday/countdown.php:113
+msgid "1 day"
+msgstr "1 giorno"
+
+#: templates/woocommerce/pw-black-friday/countdown.php:115
+#: ui/edit-countdowns.php:31
+msgid "days"
+msgstr "giorni"
+
+#: templates/woocommerce/pw-black-friday/countdown.php:121
+msgid "1 hour"
+msgstr "1 ora"
+
+#: templates/woocommerce/pw-black-friday/countdown.php:123
+msgid "hours"
+msgstr "ore"
+
+#: templates/woocommerce/pw-black-friday/countdown.php:128
+msgid "1 minute"
+msgstr "1 minuto"
+
+#: templates/woocommerce/pw-black-friday/countdown.php:130
+msgid "minutes"
+msgstr "minuti"
+
+#: templates/woocommerce/pw-black-friday/countdown.php:134
+msgid "1 second"
+msgstr "1 secondo"
+
+#: templates/woocommerce/pw-black-friday/countdown.php:136
+msgid "seconds"
+msgstr "secondi"
+
+#: templates/woocommerce/pw-black-friday/countdown.php:141
+msgid "0 seconds"
+msgstr "0 secondi"
+
+#: templates/woocommerce/pw-black-friday/sale-price-html.php:10
+msgid "%s Sale Price"
+msgstr "%s prezzo di vendita"
+
+#: templates/woocommerce/pw-black-friday/sale-price-html.php:13
+#: ui/deals/step2.php:43
+msgid "Buy One, Get One Free"
+msgstr "Compri uno, ottenga uno libero"
+
+#: templates/woocommerce/pw-black-friday/sale-price-html.php:30
+msgid "Expires"
+msgstr "Scade"
+
+#: ui/deals/step1.php:4
+msgid "Products included in the deal"
+msgstr "Prodotti inclusi nell'affare"
+
+#: ui/deals/step1.php:9 ui/index.php:124
+msgid "Categories"
+msgstr "Categorie"
+
+#: ui/deals/step1.php:11
+msgid "Select"
+msgstr "Seleziona"
+
+#: ui/deals/step1.php:12
+msgid "All"
+msgstr "Tutti"
+
+#: ui/deals/step1.php:13
+msgid "None"
+msgstr "Nessuno"
+
+#: ui/deals/step1.php:16
+msgid "Any category"
+msgstr "Qualsiasi categoria"
+
+#: ui/deals/step1.php:34
+msgid "Include specific products in this deal"
+msgstr "Includi prodotti specifici in questo Deal"
+
+#: ui/deals/step1.php:43 ui/deals/step1.php:56 ui/deals/step1.php:82
+#: ui/deals/step1.php:95
+msgid "Search for a product&hellip;"
+msgstr "Cerca un prodotto&hellip;"
+
+#: ui/deals/step1.php:73
+msgid "Exclude specific products from this deal"
+msgstr "Escludi prodotti specifici da questa offerta"
+
+#: ui/deals/step1.php:121
+msgid "Please select at least one Product Category or one Included Product."
+msgstr ""
+"Si prega di selezionare almeno una categoria di prodotto o un prodotto "
+"incluso."
+
+#: ui/deals/step2.php:4
+msgid "Promotion type for this deal"
+msgstr "Tipo di promozione per questo affare"
+
+#: ui/deals/step2.php:28
+msgid ""
+"To set a custom discount percentage (plus a whole lot more!)<br>upgrade to %s"
+msgstr ""
+"Per impostare una percentuale di sconto personalizzato (più un bel po' di "
+"più!) <br> aggiornamento a %s"
+
+#: ui/deals/step2.php:32
+msgid "To set a custom amount (plus a whole lot more!)<br>upgrade to %s"
+msgstr ""
+"Per impostare un importo personalizzato (più un bel po' di più!) <br> "
+"aggiornamento a %s"
+
+#: ui/deals/step2.php:36
+msgid ""
+"%s will let you specify Buy X, Get X<br>for a percentage off (for example, "
+"Buy 3, Get 1 for 50%% off)."
+msgstr ""
+"%s vi permetterà di specificare Buy X, Get X <br> per una percentuale di "
+"sconto (ad esempio, acquistare 3, ottenere 1 per 50%% di sconto)."
+
+#: ui/deals/step2.php:41 ui/deals/step2.php:42
+msgid "off regular price"
+msgstr "off prezzo regolare"
+
+#: ui/deals/step2.php:50
+msgid "Discount is based on Regular Price"
+msgstr "Lo sconto è basato sul prezzo normale"
+
+#: ui/deals/step2.php:52
+msgid "Ignores any existing sale price."
+msgstr "Ignora qualsiasi prezzo di vendita esistente."
+
+#: ui/deals/step2.php:60
+msgid "Only discount identical products."
+msgstr "Sconto solo prodotti identici."
+
+#: ui/deals/step2.php:60
+msgid "What's this?"
+msgstr "Cosa c'è di nuovo?"
+
+#: ui/deals/step2.php:67
+msgid "Only discount identical variations."
+msgstr "Sconto solo variazioni identiche."
+
+#: ui/deals/step2.php:73
+msgid ""
+"Instead of allowing a mix-and-match of products included in this deal, only "
+"discount identical products. For example:"
+msgstr ""
+"Invece di permettere un mix-and-match di prodotti inclusi in questo accordo, "
+"solo sconto prodotti identici. Per esempio:"
+
+#: ui/deals/step2.php:76
+msgid "Promotion:"
+msgstr "Promozione:"
+
+#: ui/deals/step2.php:76
+msgid "Buy 1, Get 1 Free"
+msgstr "Acquista 1, Ottieni 1 gratis"
+
+#: ui/deals/step2.php:77
+msgid "Category:"
+msgstr "Categoria:"
+
+#: ui/deals/step2.php:77
+msgid "Hats"
+msgstr "Cappelli"
+
+#: ui/deals/step2.php:78
+msgid "Cart:"
+msgstr "Carrello:"
+
+#: ui/deals/step2.php:80
+msgid "$100 Large Hat (x 2)"
+msgstr "$100 cappello grande (x 2)"
+
+#: ui/deals/step2.php:81
+msgid "$50 Small Hat (x 2)"
+msgstr "$50 cappello piccolo (x 2)"
+
+#: ui/deals/step2.php:85
+msgid ""
+"With this option <b>unchecked</b>, the discount will be <b>$100</b>. (2 "
+"Large Hats purchased, 2 Small Hats for free.)"
+msgstr ""
+"Con questa opzione <b>incontrollato</b>, lo sconto sarà <b>$100</b>. (2 "
+"grandi cappelli acquistati, 2 cappelli piccoli gratis.)"
+
+#: ui/deals/step2.php:87
+msgid ""
+"With this option <b>checked</b>, the discount will be <b>$150</b>. (1 free "
+"Large Hat, 1 free Small Hat.)"
+msgstr ""
+"Con questa opzione <b>controllato</b>, lo sconto sarà <b>$150</b>. (1 "
+"cappello grande libero, 1 piccolo cappello libero.)"
+
+#: ui/deals/step2.php:95
+msgid "Offer Free Shipping"
+msgstr "Offerta Spedizione gratuita"
+
+#: ui/deals/step2.php:99
+msgid "Minimum order amount"
+msgstr "Importo minimo dell'ordine"
+
+#: ui/deals/step3.php:4
+msgid "Restrictions"
+msgstr "Restrizioni"
+
+#: ui/deals/step3.php:10 ui/deals/step3.php:15
+msgid "Coupon is not valid."
+msgstr "Coupon non valido."
+
+#: ui/deals/step3.php:25 ui/index.php:129
+msgid "Coupon Code"
+msgstr "Codice Coupon"
+
+#: ui/deals/step3.php:29
+msgid ""
+"If you would like a coupon code to be required to activate this deal, enter "
+"it here. You can use the same coupon code for multiple deals in this event. "
+"You don't have to create the coupon in WooCommerce ahead of time, just input "
+"the code you would like to use and we'll take care of the rest!"
+msgstr ""
+"Se vuoi che ti venga richiesto un codice coupon per attivare questa "
+"operazione, inseriscilo qui. È possibile utilizzare lo stesso codice coupon "
+"per più offerte in questo evento. Non è necessario creare il coupon in "
+"WooCommerce in anticipo, basta inserire il codice che si desidera utilizzare "
+"e noi ci occuperemo del resto!"
+
+#: ui/deals/step3.php:36 ui/index.php:130
+msgid "Individual Use"
+msgstr "Uso individuale"
+
+#: ui/deals/step3.php:39
+msgid "Check this box if other coupons are not allowed for items in this deal."
+msgstr ""
+"Spunta questa casella se non sono ammessi altri coupon per gli articoli di "
+"questa operazione."
+
+#: ui/deals/step3.php:44
+msgid "Individual Use Error Message"
+msgstr "Messaggio di errore per uso individuale"
+
+#: ui/deals/step3.php:48
+msgid "Shown if customer tries to use another coupon during the event."
+msgstr ""
+"Indicato se il cliente tenta di utilizzare un altro coupon durante l'evento."
+
+#: ui/deals/step3.php:56
+msgid "Quantity limit per order"
+msgstr "Quantità limite per ordine"
+
+#: ui/deals/step3.php:60
+msgid ""
+"The maximum number of discounted products allowed in the cart at the same "
+"time. Leave blank if there is no limit."
+msgstr ""
+"Il numero massimo di prodotti scontati consentiti nel carrello "
+"contemporaneamente. Lasciare vuoto se non c'è un limite."
+
+#: ui/deals/step4.php:4
+msgid "Deal Name"
+msgstr "Nome dell'affare"
+
+#: ui/deals/step4.php:20
+msgid "The deal name may be shown to customers."
+msgstr "Il nome dell'affare può essere mostrato ai clienti."
+
+#: ui/deals/step4.php:25
+msgid "Show expiration date on product page."
+msgstr "Mostra la data di scadenza sulla pagina del prodotto."
+
+#: ui/deals/step4.php:28
+msgid "Nudge customers to purchase by showing the expiration date of the sale."
+msgstr ""
+"Nudge clienti per l'acquisto mostrando la data di scadenza della vendita."
+
+#: ui/edit-countdowns.php:11
+msgid ""
+"Countdowns appear at the top of every page. They generate anticipation and "
+"create a sense of urgency."
+msgstr ""
+"I conti alla rovescia appaiono nella parte superiore di ogni pagina. "
+"Generano anticipazione e creano un senso di urgenza."
+
+#: ui/edit-countdowns.php:14
+msgid "You can use HTML, and the following codes are also available:"
+msgstr ""
+"È possibile utilizzare l'HTML e sono disponibili anche i seguenti codici:"
+
+#: ui/edit-countdowns.php:17
+msgid "Display a countdown timer (days, hours, minutes, and seconds)."
+msgstr ""
+"Visualizza un timer per il conto alla rovescia (giorni, ore, minuti e "
+"secondi)."
+
+#: ui/edit-countdowns.php:18
+msgid "The begin date of the event."
+msgstr "La data di inizio dell'evento."
+
+#: ui/edit-countdowns.php:19
+msgid "The begin time of the event."
+msgstr "L'ora di inizio dell'evento."
+
+#: ui/edit-countdowns.php:20
+msgid "The end date of the event."
+msgstr "La data di fine dell'evento."
+
+#: ui/edit-countdowns.php:21
+msgid "The end time of the event."
+msgstr "L'ora di fine dell'evento."
+
+#: ui/edit-countdowns.php:24
+msgid "Upcoming event announcement"
+msgstr "Prossimo annuncio dell'evento"
+
+#: ui/edit-countdowns.php:25
+msgid "Build excitement before the event begins. Leave blank to disable."
+msgstr ""
+"Costruire l'eccitazione prima dell'inizio dell'evento. Lasciare vuoto per "
+"disabilitare."
+
+#: ui/edit-countdowns.php:27 ui/edit-countdowns.php:37 ui/edit-promo.php:18
+msgid "Preview"
+msgstr "Anteprima"
+
+#: ui/edit-countdowns.php:30
+msgid ""
+"How many days before the start of the event should we begin showing this "
+"announcement? Leave blank to start displaying immediately."
+msgstr ""
+"Quanti giorni prima dell'inizio dell'evento dovremmo cominciare a mostrare "
+"questo annuncio? Lasciare vuoto per iniziare immediatamente la "
+"visualizzazione."
+
+#: ui/edit-countdowns.php:34
+msgid "End of the event countdown"
+msgstr "Fine del conto alla rovescia dell'evento"
+
+#: ui/edit-countdowns.php:35
+msgid "Motivate a purchase before the event is over. Leave blank to disable."
+msgstr ""
+"Motivare un acquisto prima che l'evento sia finito. Lasciare vuoto per "
+"disabilitare."
+
+#: ui/edit-countdowns.php:40 ui/edit-event.php:29 ui/edit-promo.php:17
+msgid "Save"
+msgstr "Salva"
+
+#: ui/edit-countdowns.php:41 ui/edit-deal.php:34 ui/edit-event.php:30
+#: ui/edit-promo.php:19
+msgid "Cancel"
+msgstr "Annulla"
+
+#: ui/edit-countdowns.php:48 ui/edit-deal.php:59 ui/edit-event.php:37
+#: ui/edit-promo.php:14
+msgid "Saving"
+msgstr "Salvataggio"
+
+#: ui/edit-deal.php:11
+msgid "Step %s of %s"
+msgstr "Passo %s di %s"
+
+#: ui/edit-deal.php:34
+msgid "Cancel the wizard?"
+msgstr "Cancellare il mago?"
+
+#: ui/edit-deal.php:34
+msgid "Your changes will not be saved."
+msgstr "Le modifiche non verranno salvate."
+
+#: ui/edit-deal.php:38
+msgid "Next"
+msgstr "Successivo"
+
+#: ui/edit-deal.php:42
+msgid "Finish"
+msgstr "Fine"
+
+#: ui/edit-deal.php:48
+msgid "Previous"
+msgstr "Precedente"
+
+#: ui/edit-event.php:12
+msgid "Event name"
+msgstr "Nome evento"
+
+#: ui/edit-event.php:14
+msgid "The event name may be shown to customers."
+msgstr "Il nome dell'evento può essere mostrato ai clienti."
+
+#: ui/edit-event.php:17
+msgid "Deal Begins"
+msgstr "Inizio dell'affare"
+
+#: ui/edit-event.php:23
+msgid "Deal Ends"
+msgstr "Fine dell'affare"
+
+#: ui/edit-promo.php:9
+msgid "Promo"
+msgstr "Promozione"
+
+#: ui/edit-promo.php:11
+msgid ""
+"This will be shown on your front page once the event has started. Use it to "
+"highlight special parts of the event, add links to specific products, or "
+"anything else you would like. If this is blank, nothing will be shown."
+msgstr ""
+"Questo sarà mostrato sulla vostra pagina iniziale una volta che l'evento è "
+"iniziato. Utilizzatelo per evidenziare parti speciali dell'evento, "
+"aggiungere link a prodotti specifici o qualsiasi altra cosa desideri. Se "
+"questo è vuoto, non verrà mostrato nulla."
+
+#: ui/first-event.php:8
+msgid "You have created your first event. Way to go!"
+msgstr "Avete creato il vostro primo evento. Così si fa!"
+
+#: ui/first-event.php:11
+msgid ""
+"An event lets you create a group of deals to offer your customers for a "
+"limited amount of time."
+msgstr ""
+"Un evento ti permette di creare un gruppo di offerte da offrire ai tuoi "
+"clienti per un periodo di tempo limitato."
+
+#: ui/first-event.php:14
+msgid "Now what?"
+msgstr "E ora che cosa?"
+
+#: ui/first-event.php:17
+msgid ""
+"Click the \"Create a deal\" button below and choose products that will be on "
+"sale during the event. You can create multiple deals with different groups "
+"of products. For example, one for \"20% off all Hats and Shoes\" and another "
+"for \"Buy 1 Shirt, Get 1 Free\"."
+msgstr ""
+"Clicca sul pulsante \"Crea un'offerta\" qui sotto e scegli i prodotti che "
+"saranno in vendita durante l'evento. È possibile creare offerte multiple con "
+"diversi gruppi di prodotti. Per esempio, uno per \"20% di sconto su tutti i "
+"cappelli e scarpe\" e un altro per \"Compra 1 camicia, prendi 1 gratis\"."
+
+#: ui/first-event.php:20
+msgid ""
+"You can even stack deals on the same products. So if you want to offer \"all "
+"shirts 10% off plus Buy 5, Get 1 Free!\", first create a \"Percentage off\" "
+"deal and then a \"Buy X, Get X\" deal for the same products."
+msgstr ""
+"È anche possibile impilare le offerte sugli stessi prodotti. Quindi, se vuoi "
+"offrire \"tutte le camicie 10% di sconto più Acquista 5, ottieni 1 gratis\", "
+"crea prima un'offerta \"Percentuale di sconto\" e poi un'offerta \"Compra X, "
+"ottieni X\" per gli stessi prodotti."
+
+#: ui/first-event.php:23
+msgid ""
+"After you have created your first deal you will be able to build excitement "
+"using countdown banners, design promos for the event, and more!"
+msgstr ""
+"Dopo aver creato il tuo primo affare potrai creare emozioni utilizzando i "
+"banner conto alla rovescia, le promozioni di design per l'evento e molto "
+"altro ancora!"
+
+#: ui/footer.php:9
+msgid "Need help? Email %s"
+msgstr "Hai bisogno di aiuto? Email %s"
+
+#: ui/footer.php:11
+msgid ""
+"Please consider <%s>leaving a review on WordPress.org</a>. This really helps "
+"us out!"
+msgstr ""
+"Si prega di considerare <%s>lasciare una recensione su Wordpress.org</a>. "
+"Questo ci aiuta davvero!"
+
+#: ui/index.php:64
+msgid "Create another event"
+msgstr "Crea un altro evento"
+
+#: ui/index.php:71
+msgid "Other"
+msgstr "Altro"
+
+#: ui/index.php:102
+msgid "until"
+msgstr "fino a"
+
+#: ui/index.php:114 ui/index.php:248
+msgid "Create a deal"
+msgstr "Creare un accordo"
+
+#: ui/index.php:115
+msgid "Edit promo"
+msgstr "Modifica promo"
+
+#: ui/index.php:116
+msgid "Countdowns"
+msgstr "Conto alla rovescia"
+
+#: ui/index.php:117
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: ui/index.php:118
+msgid "Delete event"
+msgstr "Cancella evento"
+
+#: ui/index.php:123
+msgid "Name"
+msgstr "Nome"
+
+#: ui/index.php:125
+msgid "Specific Products"
+msgstr "Prodotti specifici"
+
+#: ui/index.php:126
+msgid "Excluded Products"
+msgstr "Prodotti esclusi"
+
+#: ui/index.php:128
+msgid "Free Shipping"
+msgstr "Spedizione gratuita"
+
+#: ui/index.php:131
+msgid "Order Limit"
+msgstr "Limite d'ordine"
+
+#: ui/index.php:148
+msgid "All categories"
+msgstr "Tutte le categorie"
+
+#: ui/index.php:153 ui/index.php:166 ui/index.php:178
+msgid "More"
+msgstr "Altro"
+
+#: ui/index.php:189 ui/index.php:193
+msgid "off"
+msgstr "off"
+
+#: ui/index.php:205 ui/index.php:217
+msgid "Yes"
+msgstr "Si"
+
+#: ui/index.php:207
+msgid "minimum"
+msgstr "minimo"
+
+#: ui/index.php:209 ui/index.php:217
+msgid "No"
+msgstr "No"
+
+#: ui/index.php:220
+msgid "No limit"
+msgstr "Nessun limite"
+
+#: ui/index.php:223
+msgid "Delete deal"
+msgstr "Cancellare l'affare"
+
+#: ui/index.php:233
+msgid ""
+"This event does not include any products. Click on the \"Create a deal\" "
+"button."
+msgstr ""
+"Questo evento non include alcun prodotto. Clicca sul pulsante \"Crea "
+"un'operazione\"."
+
+#: ui/intro.php:4
+msgid ""
+"Black Friday and Cyber Monday are two of the biggest shopping events of the "
+"year."
+msgstr ""
+"Il Black Friday e il Cyber Monday sono due dei più grandi eventi di shopping "
+"dell'anno."
+
+#: ui/intro.php:7
+msgid ""
+"Schedule these events without interfering with any existing sales. You can "
+"even specify the minute the promotion will officially begin!"
+msgstr ""
+"Pianificare questi eventi senza interferire con le vendite esistenti. Puoi "
+"anche specificare il minuto in cui la promozione inizierà ufficialmente!"
+
+#: ui/intro.php:10
+msgid "Select an event to get started."
+msgstr "Selezionare un evento per iniziare."
+
+#: ui/intro.php:29
+msgid "Other Event"
+msgstr "Altro Evento"
+
+#. Plugin Name of the plugin/theme
+msgid "Black Friday and Cyber Monday for WooCommerce"
+msgstr "Black Friday and Cyber Monday for WooCommerce"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.pimwick.com/black-friday/"
+msgstr "https://www.pimwick.com/black-friday/"
+
+#. Description of the plugin/theme
+msgid "Offer Black Friday and Cyber Monday deals via WooCommerce."
+msgstr "Offerta venerdì nero e Cyber Lunedi offerte via WooCommerce."
+
+#. Author of the plugin/theme
+msgid "Pimwick, LLC"
+msgstr "Pimwick, LLC"
+
+#. Author URI of the plugin/theme
+msgid "https://www.pimwick.com"
+msgstr "https://www.pimwick.com"

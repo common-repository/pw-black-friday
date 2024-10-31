@@ -1,0 +1,532 @@
+#pwbf-container {
+    direction: ltr;
+}
+
+html[dir="rtl"] #pwbf-container {
+    display: table;
+    margin: 0 auto;
+}
+
+.pwbf-header {
+    margin-bottom: 7px;
+    line-height: initial;
+}
+
+.pwbf-title-container {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.pwbf-social-link {
+    cursor: pointer;
+}
+
+.pwbf-heading {
+    font-size: 200%;
+    font-weight: 600;
+    margin-bottom: 1.0em;
+}
+
+.pwbf-heading-step {
+    font-weight: 300;
+    font-size: 40%;
+    margin-bottom: 3px;
+}
+
+.pwbf-title {
+    margin-top: 10px;
+    margin-bottom: 3px;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+.pwbf-credits {
+    opacity: 0.75;
+}
+
+.pwbf-version {
+    font-size: 80%;
+    opacity: 0.25;
+}
+
+.pwbf-main-content {
+    line-height: initial;
+    padding-right: 20px;
+}
+
+.pwbf-link {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.pwbf-link:hover {
+    color: #0073aa;
+}
+
+.pwbf-deal-link {
+    font-weight: 600;
+    font-size: 120%;
+}
+
+.pwbf-spinner {
+    height: 20px;
+    width: 20px;
+}
+
+.pwbf-wait {
+    position: absolute;
+    z-index: 1;
+}
+
+.pwbf-bordered-container {
+    min-width: 600px;
+    display: inline-block;
+    border-color: #0087B4;
+    border-width: 14px;
+    border-style: solid;
+    border-radius: 28px;
+    background-color: #FFFFFF;
+    padding: 32px;
+}
+
+.pwbf-bordered-content {
+    margin: 24px;
+}
+
+.pwbf-bordered-content-button-container {
+    margin-top: 28px;
+}
+
+.pwbf-deal-table {
+    border-spacing: 0;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-color: #AAAAAA;
+    border-width: 1px;
+    min-width: 550px;
+}
+
+@media only screen and (max-width: 959px) {
+    .pwbf-deal-table {
+        min-width: initial;
+    }
+}
+
+.pwbf-deal-table th, td {
+    padding: 0.5em 1.0em;
+    vertical-align: top;
+    line-height: 1.4;
+}
+
+.pwbf-deal-table th {
+    font-size: 80%;
+    text-align: left;
+    background-color: #329926;
+    color: #EEEEEE;
+    font-weight: initial;
+}
+
+.pwbf-edit-event-link-container {
+    margin-bottom: 6px;
+}
+
+.pwbf-edit-event-link {
+    font-weight: 600;
+    font-size: 250%;
+    text-decoration: none;
+}
+
+.pwbf-input-title {
+    font-size: 120%;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 24px;
+    margin-bottom: 3px;
+}
+
+.pwbf-input-subtitle {
+    margin-left: 1px;
+    font-size: 75%;
+}
+
+.pwbf-input {
+    font-size: 125%;
+    font-weight: 600;
+}
+
+.pwbf-wizard-next-previous-button {
+    opacity: 1.0;
+    background-color: #0086B7;
+    color: #FFFFFF;
+    border-radius: 6px;
+    font-size: 125%;
+    padding: 0.5em 1.0em;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.pwbf-wizard-next-previous-button:hover {
+    color: #FFFFFF;
+    opacity: 0.85;
+}
+
+.pwbf-wizard-next-previous-button:active {
+    color: #FFFFFF;
+}
+
+.pwbf-wizard-next-previous-button:visited {
+    color: #FFFFFF;
+}
+
+.pwbf-wizard-next-button, .pwbf-wizard-previous-button, .pwbf-wizard-finish-button {
+    float: right;
+    margin-left: 1.0em;
+}
+
+.pwbf-wizard-finish-button {
+    background-color: #33CC33;
+}
+
+.pwbf-wizard-previous-button {
+    background-color: #CCCCCC;
+}
+
+.pwbf-wizard-cancel-button {
+    opacity: 0.5;
+    font-size: 75%;
+    color: #666666;
+    float: left;
+    text-decoration: none;
+    margin-top: 1.0em;
+    cursor: pointer;
+}
+
+.pwbf-wizard-cancel-button:hover {
+    opacity: 0.8;
+}
+
+.pwbf-product-categories {
+    width: 100% !important;
+    height: 15em !important;
+}
+
+.pwbf-delete-link {
+    color: red;
+    opacity: 0.5;
+}
+
+.pwbf-delete-link:hover {
+    color: red;
+    opacity: 1.0;
+}
+
+#adminmenu li.menu-top[class*="pimwick"] .wp-menu-image img {
+    width: 18px;
+}
+
+.pwbf-discount-container {
+    margin: 6.0em 0;
+}
+
+.pwbf-holiday-container {
+    margin-top: 3.0em;
+}
+
+.pwbf-action-button-container {
+    margin: 1.5em 0;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.pwbf-action-button {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.pwbf-action-button:hover {
+    opacity: 0.85;
+}
+
+.pwbf-action-button > div:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1.0;
+    width: 114px;
+    height: 114px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+
+.pwbf-action-title {
+    margin-top: 6px;
+    font-size: 125%;
+    text-align: center;
+}
+
+.pwbf-action-button-medium {
+    margin-right: 25px;
+}
+
+.pwbf-action-button-medium > div:first-child {
+    width: 75px;
+    height: 75px;
+    border-radius: 13px;
+}
+
+.pwbf-action-title-medium {
+    margin-top: 5px;
+    font-size: 100%;
+}
+
+.pwbf-action-button-small {
+    margin-right: 15px;
+}
+
+.pwbf-action-button-small > div:first-child {
+    width: 34px;
+    height: 34px;
+    border-radius: 6px;
+}
+
+.pwbf-action-title-small {
+    margin-top: 3px;
+    font-size: 75%;
+}
+
+.pwbf-intro-button {
+    margin: 0 2.0em;
+}
+
+.pwbf-noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+#pwbf-edit-event, #pwbf-edit-countdowns {
+    display: none;
+    background-color: #FFFFFF;
+}
+
+.pwbf-intro-container {
+    max-width: 500px;
+    margin: 48px;
+}
+
+.pwbf-intro-container p {
+    font-size: 110%;
+}
+
+.pwbf-intro-header {
+    font-size: 200%;
+    text-align: center;
+    margin: 1em 0;
+    line-height: 1.5;
+}
+
+.pwbf-event-heading {
+    text-align: center;
+}
+
+.pwbf-event-button {
+    display: inline-block;
+    padding: 0.25em 0.5em;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all .05s ease-in-out;
+    border-color: #CCCCCC;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.pwbf-event-button:hover {
+    transform: scale(1.03);
+    color: #000000;
+}
+
+.pwbf-add-event-container {
+    margin-left: 24px;
+    margin-bottom: 60px;
+}
+
+.pwbf-add-event-buttons {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#pwbf-add-event-button-container {
+    margin-bottom: 15px;
+}
+
+.pwbf-add-event-title {
+    margin-bottom: 12px;
+    margin-left: 6px;
+    font-weight: 600;
+}
+
+.pwbf-event-container {
+    margin-left: 24px;
+    margin-bottom: 48px;
+}
+
+.pwbf-event-dates {
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.pwbf-event-actions {
+    display: inline-block;
+    margin-left: 36px;
+    margin-bottom: 8px;
+    vertical-align: middle;
+}
+
+.pwbf-no-deals {
+    color: #666666;
+    font-size: 90%;
+    font-style: italic;
+    padding: 12px;
+}
+
+.pwbf-no-deals-initial {
+    color: #222222;
+    font-size: 175%;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.pwbf-footer {
+    margin-top: 150px;
+    color: #CCCCCC;
+    background-color: #22282D;
+    padding: 12px;
+    line-height: 1.4;
+}
+
+.pwbf-footer-site-logo {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+
+.pwbf-footer-site-title {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    color: #65686a;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.pwbf-rating {
+    display: inline-block;
+    margin-left: 24px;
+    line-height: 1.8;
+}
+
+.pwbf-rating-highlight {
+    font-weight: 600;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.pwbf-edit-promo-button-container {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+#pwbf-edit-promo-saving {
+    display: none;
+    color: green;
+    font-weight: 600;
+    font-size: 150%;
+    margin: 16px 0;
+}
+
+.pwbf-edit-promo-button {
+    margin-right: 8px !important;
+}
+
+.pwbf-cancel-link {
+    opacity: 0.5 !important;
+    text-decoration: none;
+    vertical-align: bottom;
+}
+
+.pwbf-discount-toggle {
+    text-decoration: none;
+}
+
+.pwbf-unlimited-lines {
+    display: none;
+}
+
+.pwbf-limited-lines-toggle {
+    font-size: 75%;
+}
+
+.pwbf-deal-container-pro {
+    font-size: 125%;
+    font-weight: 500;
+    margin-top: 12px;
+    line-height: 1.4;
+}
+
+.pwbf-deal-container {
+    margin-left: 48px;
+    margin-top: 12px;
+}
+
+.pwbf-short-number-field {
+    width: 60px;
+}
+
+.pwbf-medium-number-field {
+    width: 80px;
+}
+
+.pwbf-inline-help-text {
+    padding: 12px;
+    margin: 12px 0;
+    background-color: #FFFFEE;
+    border-radius: 3px;
+    line-height: 1.4;
+    border-style: solid;
+    border-color: #AAAAAA;
+    border-width: 1px;
+}
+
+.pwbf-countdown-tag {
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 600;
+}
+
+/*
+ Make sure these are always the last entry
+ in the .css file so it doesn't get overruled by
+ a later rule.
+*/
+
+.pwbf-pull-right {
+    float: right;
+}
+
+.pwbf-pull-left {
+    float: left;
+}
+
+.pwbf-hidden {
+    display: none;
+}
